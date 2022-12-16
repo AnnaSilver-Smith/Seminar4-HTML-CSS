@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    background: #ffffff;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.link_navi {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navi {
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Gilroy;
+    font-weight: semibold;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.orange {
+    color: #f25822;
+
+}
+
+.black {
+    color: #000000;
+}
+
+main {
+    margin-top: 42px;
+    margin-bottom: 162px;
+
+}
+
+.content {
+    display: flex;
+    gap: 41px;
+}
+
+h1 {
+    margin-bottom: 17px;
+    width: 522px;
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+}
+
+p {
+    width: 466px;
+    font-family: Gilroy;
+    font-weight: medium;
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+}
+
+.buttons {
+    margin-top: 37px;
+    display: flex;
+    align-items: baseline;
+    gap: 72px;
+}
+
+.btn {
+    padding: 15px 35px;
+    border: none;
+    cursor: pointer;
+    background: #f25822;
+    box-shadow: rgba(242, 88, 34, 0.2) 4px 4px 8px inset;
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: Gilroy;
+    font-weight: bold;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+.btn_video {
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #aaaaaa;
+}
+
+footer {
+    padding-top: 97px;
+    padding-bottom: 97px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
