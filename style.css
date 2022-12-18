@@ -1,3 +1,10 @@
+@font-face {
+    font-family: Girlroy;
+    src: url(./font/Gilroy-Semibold.ttf);
+    src: url(./font/Gilroy-Bold.ttf);
+    src: url(./font/Gilroy-Medium.ttf);
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -8,7 +15,7 @@
 body {
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
-    background: #ffffff;
+    background: #fafafa;
 }
 
 img {
@@ -30,7 +37,7 @@ img {
 }
 
 .navi {
-    padding-left: 40px;
+    width: 533px;
     display: flex;
     justify-content: space-between;
     font-family: Gilroy;
@@ -49,7 +56,7 @@ img {
 }
 
 main {
-    margin-top: 42px;
+    margin-top: 84px;
     margin-bottom: 162px;
 
 }
