@@ -1,8 +1,9 @@
 @font-face {
     font-family: Girlroy;
-    src: url(./font/Gilroy-Semibold.ttf);
-    src: url(./font/Gilroy-Bold.ttf);
-    src: url(./font/Gilroy-Medium.ttf);
+    src: url(./font/Gilroy-Semibold.ttf) format('truetype'), 
+        url(./font/Gilroy-Bold.ttf) format('truetype'), 
+        url(./font/Gilroy-Medium.ttf) format('truetype'), 
+        url(./font/Gilroy-Regular.ttf) format('truetype');
 }
 
 * {
@@ -15,7 +16,7 @@
 body {
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
-    background: #fafafa;
+    background: #ffffff;
 }
 
 img {
@@ -41,7 +42,7 @@ img {
     display: flex;
     justify-content: space-between;
     font-family: Gilroy;
-    font-weight: semibold;
+    font-weight: 600;
     font-size: 14px;
     line-height: 16px;
 }
@@ -79,7 +80,7 @@ h1 {
 p {
     width: 466px;
     font-family: Gilroy;
-    font-weight: medium;
+    font-weight: 500;
     font-size: 20px;
     line-height: 23px;
     color: #888888;
@@ -112,16 +113,152 @@ p {
     font-size: 15px;
     line-height: 18px;
     color: #aaaaaa;
-}
-
-footer {
-    padding-top: 97px;
-    padding-bottom: 97px;
+    cursor: pointer;
 }
 
 .logos {
+    margin-top: 259px;
+    margin-bottom: 96px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+section{
+    background: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+.top {
+    display: grid;
+    grid-template-columns: 300px 370px 300px;
+    grid-template-rows: 291px;
+    gap: 100px;
+    grid-auto-flow: row;
+}
+.block {
+    padding-top: 40px;
+    padding-bottom: 17px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #ffffff;
+}
+.heading {
+    margin-top: 25px;
+    width: 215px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    font-family: Gilroy;
+    font-weight: bold;
+}
+.text {
+    margin-top: 17px;
+    margin-bottom: 25px;
+    width: 310px;
+    height: 42px;
+    font-family: Gilroy;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+}
+.read {
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 150%;
+    color: #000000;
+}
+.active {
+    box-shadow: rgba(0,0,0,0.06) 15px 25px 56px 6px;
+}
+footer {
+    padding-top: 92px;
+    padding-bottom: 100px;
+    background: #fafafa;
+}
+.letter {
+    margin-bottom: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.title {
+    margin-bottom: 19px;
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 53px;
+    color: #000000;
+}
+.txt {
+    width: 682px;
+    font-family: Gilroy;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color:#666666;
+}
+.cards {
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.one {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.two {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: rgba(0,0,0,0.1) 15px 25px 60px -5px;
+}
+.three {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.cards h2 {
+    margin-top: 25px;
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.cards p {
+    margin-top: 22px;
+    width: 310px;
+    height: 63px;
+    font-family: Gilroy;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 150%;
+    color: #aaaaaa;
+}
+.snap {
+    margin-top: 39px;
+    margin-bottom: 50px;
+    width: 150px;
+    height: 50px;
+    background: #f25822;
+    border-radius: 50px;
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
